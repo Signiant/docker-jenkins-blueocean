@@ -1,4 +1,4 @@
 FROM jenkinsci/blueocean:latest
-COPY plugins.txt /plugins.txt
 
-RUN /bin/bash -l -c "/usr/local/bin/install-plugins.sh  `cat /plugins.txt | tr \"\\n\" \" \"`"
+COPY plugins.txt /usr/share/jenkins/plugins.txt
+RUN /usr/local/bin/install-plugins.sh /usr/share/jenkins/plugins.txt
