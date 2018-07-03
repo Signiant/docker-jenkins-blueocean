@@ -1,4 +1,4 @@
-FROM jenkinsci/blueocean:latest
+FROM jenkinsci/jenkins:lts
 USER root
 COPY plugins.txt /plugins.txt
 
