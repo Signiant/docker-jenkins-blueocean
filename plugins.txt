@@ -65,6 +65,7 @@ nunit:0.17
 pam-auth:1.2
 parameterized-trigger:2.28
 plain-credentials:1.1
+pipeline-aws:1.36
 postbuild-task:1.8
 postbuildscript:0.17
 project-description-setter:1.1
